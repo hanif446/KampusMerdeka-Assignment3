@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>COVID-19 TRACKER</h1>
+        <input type="text" class="input-search" id="inputSearch">
+        <button class="btn-search" id="btnSearch">Get Data</button>
+        <br>
+        <br>
+        <div id="container">
+            <div class="box">
+                <img src="images/virus-k.png">
+                <p>Active Cases</p>
+                <h3 id="activeCase"></h3>
+            </div>
+            <div class="box">
+                <img src="images/new-k.png">
+                <p>New Cases</p>
+                <h3 id="newCase"></h3>
+            </div>
+            <div class="box">
+                <img src="images/recovered-k.png">
+                <p>Recovered Cases</p>
+                <h3 id="recoveredCase"></h3>
+            </div>
+        </div>
+        <div id="container">
+            <div class="box">
+                <img src="images/total-k.png">
+                <p>Total Cases</p>
+                <h3 id="totalCase"></h3>
+            </div>
+            <div class="box">
+                <img src="images/death-k.png">
+                <p>Total Deaths</p>
+                <h3 id="totalDeath"></h3>
+            </div>
+            <div class="box">
+                <img src="images/test-k.png">
+                <p>Total Tests</p>
+                <h3 id="totalTest"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
